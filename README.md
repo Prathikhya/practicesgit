@@ -1,2 +1,2 @@
-# practicesgit
-practices of git &amp; github
+practicesgit
+practices of git &amp; github. 
