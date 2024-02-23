@@ -1,0 +1,85 @@
+:root{
+    /* ******Colors sections******* */
+    --first-color:#F2F5F9;
+    --second-color:#FFFFFF;
+    --third-color:#111729;
+    --fourth-color:#677489;
+    /* ********Font Sizes*********** */
+    --font-title:1.5rem;
+    --font-body:1rem;
+    --font-smalltext:1rem;
+}
+*,::before,::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato';
+ 
+}
+body{
+    background-color: var(--first-color);
+    background-color: var(--first-color);
+}
+section{
+    width: 50%;
+    margin: 0 auto;
+    background-color: var(--second-color);
+    /* border: 1px solid black; */    
+}
+article{
+    width: 100%;
+}   
+img{
+    width: 100%;
+}
+img.avatar{
+    width: 3rem;
+    height: 3rem;
+    border: 5px solid var(--first-color);
+    border-radius: 50%;
+}
+svg{
+    position: relative;
+    top: -50px;
+}
+h3{
+    font-size: var(--font-title);
+}
+p, h4{
+    font-size: var(--font-body);
+}
+.pd{
+    padding: 0 2rem;
+}
+section.bottom_part{
+    display: flex;
+
+}
+/* .top_part{
+    margin-top: 10%;
+}
+.top_part,.hero{
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+}
+.detail{
+    position: relative;
+    top: -70px;
+}
+.avatar{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+.bottom_part{
+    border-bottom-right-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    
+}
+.pad{
+    padding: 0 2rem;
+} */
+/* 
+
+ */
+
